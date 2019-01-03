@@ -5,6 +5,11 @@
   list-style: none;
 }
 
+@mixin reset-link {
+  text-decoration: none;
+  color: #000000;
+}
+
 @mixin normal {
   font-weight: normal;
   font-style: normal;
@@ -15,4 +20,3 @@
   font-style: normal;
 }
 
-//вызвать: @include reset-list

@@ -1,7 +1,11 @@
-.page-header__logo {
-  display: block;
-  width: 200px;
-  margin: 0 auto;
+.search__item {
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+
+.search__form {
+  display: none;
 }
 
 //@media (min-width: $tablet-width) {

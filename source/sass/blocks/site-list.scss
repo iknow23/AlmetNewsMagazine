@@ -1,0 +1,36 @@
+.site-list__item {
+  font-weight: bold;
+  border-bottom: 1px solid #E1D7C1;
+}
+
+.site-list__link--current {
+  display: block;
+  padding: 10px;
+  color: rgba(0, 0, 0, 0.3);
+}
+
+.site-list__link {
+  display: block;
+  padding: 10px;
+  @include reset-link;
+  
+  &:focus,
+  &:hover {
+    text-decoration: underline;
+    background-color: #A3E5EE;
+  }
+  
+  &:active {
+    opacity: 0.5;
+  }
+}
+
+//@media (min-width: $tablet-width) {
+//  
+//}
+//
+//
+//@media (min-width: $desktop-width) {
+//
+//  
+//}
