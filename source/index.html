@@ -6,11 +6,73 @@
     <meta name="viewport" content="width=device-width,initial-scale=1">
     <link rel="preload" href="fonts/opensans.woff2" as="font">
     <link rel="preload" href="fonts/opensansbold.woff2" as="font">
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/style.min.css">
   </head>
   <body>
     
-    <h1>Привет, мир!</h1>
+    <header class="page-header">
+      <a class="page-header__logo">
+        <img src="img/logo.jpg" width="200" height="50" alt="Логотип газеты 'Альметьевский вестник'">
+      </a>
+      <nav class="main-nav">
+        <button class="main-nav__toggle">Активация меню</button>
+        <ul class="main-nav__list site-list">
+          <li class="site-list__item site-list__item--current">
+            <a>Главная</a>
+          </li>
+          <li class="site-list__item">
+            <a href="#">Альметьевск</a>
+          </li>
+          <li class="site-list__item">
+            <a href="#">Район</a>
+          </li>
+          <li class="site-list__item">
+            <a href="#">Спорт</a>
+          </li>
+          <li class="site-list__item">
+            <a href="#">Культура</a>
+          </li>
+          <li class="site-list__item">
+            <a href="#">Татнефть</a>
+          </li>
+          <li class="site-list__item">
+            <a href="#">Афиша</a>
+          </li>
+          <li class="site-list__item">
+            <a href="#">Контакты</a>
+          </li>
+        </ul>
+        <ul class="main-nav__list search-list">
+          <li class="search-list__item">
+            <a href="#">
+              <img class="search-list__logo" src="img/search.jpg" width="30" height="30" alt="Поиск по сайту" title="Поиск по сайту">
+            </a>
+            <form action="" method="get">
+              <label for="search-list__input">Форма поиска по сайту</label>
+              <input class="search-list__input" id="search-list__input" type="text" placeholder="Что ищем?">
+            </form>
+          </li>
+        </ul>
+      </nav>
+    </header>
+    
+    <main class="page-main">
+      <h1 class="visually-hidden">Официальный сайт газеты 'Альметьевский вестник'</h1>
+      
+      <section class="preload">
+        <h2 class="visually-hidden">Сегодняшняя дата и выбор новостей по регионам</h2>
+        
+        <div class="preload__day-status">
+          <p>Сегодня: Четверг 3 января 13:30</p>
+        </div>
+        
+        <div class="preload__area">
+          <h3 class="visually-hidden">Выберите регион новостей</h3>
+          <button class="preload__area-almetyevsk">Альметьевск</button>
+          <button class="preload__area-republic">Татарстан</button>
+        </div>
+      </section>
+    </main>
 
     <script src="js/script.js"></script>
     <script src="js/picturefill.min.js"></script>
