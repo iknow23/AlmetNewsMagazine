@@ -11,14 +11,10 @@ html {
 body {
   min-width: 320px;
   margin: 0;
-  padding: 0 10px 0 10px;
   
-  font-size: 18px;
-  line-height: 27px;
+  font-size: 14px;
+  line-height: 20px;
   font-family: "Arial", sans-serif;
-  font-style: normal;
-  @include normal;
-  
 
   background-image: url('../img/bg-pattern3.png');
 }

@@ -1,0 +1,21 @@
+.notice__item figure {
+  margin: 0;
+}
+
+.notice dd {
+  @include reset-list;
+}
+
+.notice__link {
+  @include reset-link;
+}
+
+//@media (min-width: $tablet-width) {
+//  
+//}
+//
+//
+//@media (min-width: $desktop-width) {
+//
+//  
+//}

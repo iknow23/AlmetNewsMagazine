@@ -1,0 +1,17 @@
+.hot-news__list {
+  @include reset-list;
+}
+
+.hot-news__link {
+  @include reset-link;
+}
+
+//@media (min-width: $tablet-width) {
+//  
+//}
+//
+//
+//@media (min-width: $desktop-width) {
+//
+//  
+//}

@@ -1,0 +1,17 @@
+.social__list {
+  @include reset-list;
+}
+
+.social__link {
+  @include reset-link;
+}
+
+//@media (min-width: $tablet-width) {
+//  
+//}
+//
+//
+//@media (min-width: $desktop-width) {
+//
+//  
+//}
