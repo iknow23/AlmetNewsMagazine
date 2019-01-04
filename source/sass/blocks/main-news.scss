@@ -5,8 +5,30 @@
   margin: 0;
 }
 
+.main-news__item {
+  display: flex;
+  flex-direction: column;
+}
+
 .main-news__title {
-  min-height: 40px;
+  min-height: 24px;
+  font-size: 18px;
+}
+
+.main-news__category {
+  order: 1;
+  
+  margin-bottom: 5px;
+  
+  font-style: italic;
+}
+
+.main-news__desc {
+  order: 2;
+}
+
+.main-news__full-desc {
+  order: 3;
 }
 
 .main-news__image {

@@ -30,7 +30,7 @@ var startTime = function () {
   m = checkTime(m);
   s = checkTime(s);
   document.getElementById('txt').innerHTML = 'Сегодня: ' + day[d.getDay()] + ' ' + d.getDate() + ' ' + month[d.getMonth()] + ' ' + h + ":" + m + ":" + s;
-  t = setTimeout('startTime()', 500);
+  var t = setTimeout('startTime()', 500);
 }
 var checkTime = function (i) {
   if (i < 10) {
