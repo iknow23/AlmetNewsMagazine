@@ -1,3 +1,7 @@
+.main-news {
+  margin-bottom: 20px;
+}
+
 .main-news__title,
 .main-news__category,
 .main-news__image,
@@ -21,6 +25,7 @@
   margin-bottom: 5px;
   
   font-style: italic;
+  opacity: 0.6;
 }
 
 .main-news__desc {
