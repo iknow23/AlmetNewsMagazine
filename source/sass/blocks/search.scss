@@ -1,12 +1,21 @@
-.search__item {
+.search__link {
   position: absolute;
-  right: 0;
-  top: 0;
+  top: 20px;
+  right: 10px;
 }
 
-.search__form {
-  display: none;
+.search__input {
+  width: 100%;
+  padding: 7px;
 }
+
+//.search__form {
+//  display: none;
+//}
+
+
+
+
 
 //@media (min-width: $tablet-width) {
 //  
