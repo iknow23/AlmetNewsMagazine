@@ -1,3 +1,19 @@
+.notice__title {
+  margin: 0;
+  margin-left: -10px;
+  margin-right: -10px;
+  margin-bottom: 10px;
+  padding-left: 10px;
+  padding-bottom: 5px;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+}
+
+.notice__item {
+  position: relative;
+  padding-top: 25px;
+  text-align: center;
+}
+
 .notice__item figure {
   margin: 0;
 }
@@ -8,6 +24,18 @@
 
 .notice__link {
   @include reset-link;
+}
+
+.notice__desc-title {
+  margin-top: 0;
+  color: #005F40;
+}
+
+.notice__desc--date {
+  position: absolute;
+  top: 0;
+  left: 0;
+  font-style: italic;
 }
 
 //@media (min-width: $tablet-width) {
